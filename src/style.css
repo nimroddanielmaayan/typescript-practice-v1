@@ -25,7 +25,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -37,10 +36,10 @@ h1 {
 }
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  width: 100%;
 }
 
 .logo {
@@ -94,4 +93,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+#practice {
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: 4rem;
+  text-align: center;
+  width: 100%;
 }
